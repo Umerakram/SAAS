@@ -1,0 +1,228 @@
+.frame-child32 {
+  height: 37px;
+  width: 866px;
+  position: relative;
+  background-color: var(--primary-veriation-1);
+  flex-shrink: 0;
+  display: none;
+}
+.div2 {
+  position: relative;
+  display: inline-block;
+  min-width: 10px;
+  z-index: 2;
+}
+.wrapper {
+  width: 34px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div3 {
+  position: relative;
+  display: inline-block;
+  min-width: 19px;
+  z-index: 2;
+}
+.container {
+  width: 71px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div4 {
+  position: relative;
+  display: inline-block;
+  min-width: 19px;
+  z-index: 2;
+}
+.frame {
+  width: 56px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div5 {
+  position: relative;
+  display: inline-block;
+  min-width: 10px;
+  z-index: 2;
+}
+.wrapper1 {
+  width: 37px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div6 {
+  position: relative;
+  display: inline-block;
+  min-width: 50px;
+  z-index: 2;
+}
+.wrapper2 {
+  width: 72px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div7,
+.div8 {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  z-index: 2;
+}
+.rectangle-parent23 {
+  align-self: stretch;
+  background-color: var(--primary-veriation-1);
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-6xl) var(--padding-7xs)
+    var(--padding-14xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.frame-child33 {
+  height: 37px;
+  width: 866px;
+  position: relative;
+  background-color: var(--color-thistle);
+  flex-shrink: 0;
+  display: none;
+}
+.div9 {
+  position: relative;
+  display: inline-block;
+  min-width: 10px;
+  z-index: 3;
+}
+.wrapper3 {
+  width: 34px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div10 {
+  position: relative;
+  display: inline-block;
+  min-width: 19px;
+  z-index: 3;
+}
+.wrapper4 {
+  width: 71px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div11 {
+  position: relative;
+  display: inline-block;
+  min-width: 19px;
+  z-index: 3;
+}
+.wrapper5 {
+  width: 56px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div12 {
+  position: relative;
+  display: inline-block;
+  min-width: 10px;
+  z-index: 3;
+}
+.wrapper6 {
+  width: 37px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div13 {
+  position: relative;
+  display: inline-block;
+  min-width: 50px;
+  z-index: 3;
+}
+.wrapper7 {
+  width: 72px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div14,
+.div15 {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  z-index: 3;
+}
+.class-data1,
+.rectangle-parent24 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.rectangle-parent24 {
+  background-color: var(--color-thistle);
+  overflow-x: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-6xl) var(--padding-7xs)
+    var(--padding-14xl);
+  gap: var(--gap-xl);
+  z-index: 2;
+  margin-top: -1px;
+}
+.class-data1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--extra-small-heading-size);
+  color: var(--color-black);
+  font-family: var(--extra-small-heading);
+}

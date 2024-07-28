@@ -1,0 +1,125 @@
+.frame-child61 {
+  height: 50px;
+  width: 295px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.fees-icon3,
+.fees2 {
+  position: relative;
+  z-index: 2;
+}
+.fees-icon3 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+}
+.fees2 {
+  display: inline-block;
+  min-width: 34px;
+}
+.fees-parent,
+.fees-sub-menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fees-sub-menu {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.fees-parent {
+  flex-direction: row;
+  gap: var(--gap-lgi);
+}
+.plus-icon13 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 2;
+}
+.rectangle-parent48 {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-smi) var(--padding-sm) var(--padding-smi)
+    var(--padding-13xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.frame-child62 {
+  height: 50px;
+  width: 295px;
+  position: relative;
+  background-color: var(--color-rosybrown);
+  display: none;
+}
+.attendance-icon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 3;
+}
+.attendance2 {
+  position: relative;
+  display: inline-block;
+  min-width: 86px;
+  z-index: 3;
+}
+.attendance-parent,
+.attendance-sub-menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.attendance-sub-menu {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.attendance-parent {
+  flex-direction: row;
+  gap: var(--gap-lgi);
+}
+.plus-icon14 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 3;
+}
+.menu-options1,
+.rectangle-parent49 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.rectangle-parent49 {
+  background-color: var(--color-rosybrown);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-sm) var(--padding-xs)
+    var(--padding-13xl);
+  gap: var(--gap-xl);
+  z-index: 2;
+  margin-top: -1px;
+}
+.menu-options1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--extra-small-heading-size);
+  color: var(--color-black);
+  font-family: var(--extra-small-heading);
+}

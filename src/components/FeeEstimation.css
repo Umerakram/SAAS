@@ -1,0 +1,313 @@
+.fee-estimation-child {
+  width: 610px;
+  height: 371px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver-200);
+  display: none;
+  max-width: 100%;
+}
+.estimated-fee-this1 {
+  position: relative;
+  z-index: 1;
+}
+.estimation-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-2xs);
+}
+.estimation1 {
+  position: relative;
+  display: inline-block;
+  min-width: 80px;
+  z-index: 1;
+}
+.estimation-values {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+}
+.collection1 {
+  position: relative;
+  display: inline-block;
+  min-width: 74px;
+  z-index: 1;
+}
+.amount-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xl) 0 var(--padding-8xl);
+}
+.rupee-currency-icon10 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.currency-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.value {
+  position: relative;
+  display: inline-block;
+  min-width: 95px;
+  z-index: 1;
+}
+.collection-amount1,
+.currency-value {
+  display: flex;
+  justify-content: flex-start;
+}
+.currency-value {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-12xs);
+  text-align: left;
+  font-size: var(--medium-heading-size);
+}
+.collection-amount1 {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-10xs);
+}
+.estimated-collection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-16xl);
+  box-sizing: border-box;
+  min-width: 126px;
+}
+.rupee-currency-icon11 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.currency-value1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.value1 {
+  position: relative;
+  display: inline-block;
+  min-width: 95px;
+  z-index: 1;
+}
+.amount-details1,
+.collected-value {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amount-details1 {
+  gap: var(--gap-12xs);
+}
+.collected-value {
+  padding: 0 var(--padding-4xs) 0 var(--padding-6xs);
+}
+.indicator,
+.indicator1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-200);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.indicator1 {
+  top: 22px;
+  left: 22px;
+  background-color: var(--color-silver-200);
+  width: 98px;
+  height: 98px;
+  z-index: 2;
+}
+.indicators {
+  height: 142px;
+  flex: 1;
+  position: relative;
+}
+.collected-details1,
+.progress-indicator1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.progress-indicator1 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.collected-details1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-sm);
+  min-width: 92px;
+}
+.remaining {
+  position: relative;
+  display: inline-block;
+  min-width: 79px;
+  z-index: 1;
+}
+.remaining-value1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl) 0 var(--padding-5xl);
+}
+.rupee-currency-icon12 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.currency-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.value2 {
+  position: relative;
+  display: inline-block;
+  min-width: 95px;
+  z-index: 1;
+}
+.currency-value2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  font-size: var(--medium-heading-size);
+}
+.remaining-amount,
+.remaining-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.remaining-details {
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.remaining-amount {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-16xl);
+  box-sizing: border-box;
+  min-width: 126px;
+  font-size: var(--extra-small-heading-size);
+}
+.collected-amount1,
+.collection-data1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  max-width: 100%;
+}
+.collected-amount1 {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-34xl);
+  min-width: 209px;
+  text-align: left;
+  font-size: var(--medium-heading-size);
+}
+.collection-data1 {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-36xl);
+  text-align: center;
+}
+.estimation-details1,
+.fee-estimation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.estimation-details1 {
+  align-self: stretch;
+  gap: var(--gap-10xs);
+  font-size: var(--extra-small-heading-size);
+}
+.fee-estimation {
+  position: absolute;
+  top: 496px;
+  left: 1250px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver-200);
+  width: 610px;
+  padding: var(--padding-mid) var(--padding-34xl) var(--padding-54xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--small-heading-size);
+  color: var(--color-black);
+  font-family: var(--extra-small-heading);
+}
+@media screen and (max-width: 750px) {
+  .value,
+  .value1,
+  .value2 {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .estimated-collection {
+    flex: 1;
+  }
+  .collection-data1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .estimated-fee-this1 {
+    font-size: var(--extra-small-heading-size);
+  }
+  .value,
+  .value1 {
+    font-size: var(--font-size-lg);
+  }
+  .amount-details1 {
+    flex: 1;
+  }
+  .value2 {
+    font-size: var(--font-size-lg);
+  }
+  .remaining-amount {
+    flex: 1;
+  }
+  .collected-amount1 {
+    flex-wrap: wrap;
+  }
+}

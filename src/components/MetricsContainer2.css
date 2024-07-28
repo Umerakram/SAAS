@@ -1,0 +1,83 @@
+.metrics-container-child1 {
+  width: 354px;
+  height: 150px;
+  position: relative;
+  box-shadow: var(--shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.total-students {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  z-index: 1;
+}
+.students-icon2 {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.value-units {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.dues-data {
+  position: relative;
+  display: inline-block;
+  min-width: 46px;
+  z-index: 1;
+}
+.metrics-container2,
+.value-boxes {
+  display: flex;
+  align-items: flex-start;
+}
+.value-boxes {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xl);
+  font-size: var(--big-number-size);
+}
+.metrics-container2 {
+  position: absolute;
+  top: 118px;
+  left: 354px;
+  box-shadow: var(--shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  width: 354px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-mid) var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--small-heading-size);
+  color: var(--color-black);
+  font-family: var(--extra-small-heading);
+}
+@media screen and (max-width: 750px) {
+  .dues-data {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .total-students {
+    font-size: var(--extra-small-heading-size);
+  }
+  .dues-data {
+    font-size: var(--font-size-5xl);
+  }
+}

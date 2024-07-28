@@ -1,0 +1,116 @@
+.revenue {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 87px;
+  z-index: 1;
+}
+.rupee-currency-icon2 {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.this-month1 {
+  position: relative;
+  display: inline-block;
+  min-width: 84px;
+  z-index: 1;
+}
+.this-month-revenue {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.last-month-revenue1 {
+  position: relative;
+  display: inline-block;
+  min-width: 103px;
+  z-index: 1;
+}
+.rupee-currency-icon3 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.last-month-currency-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.last-month-revenue2 {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  z-index: 1;
+}
+.last-month-data,
+.last-month-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.last-month-details {
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.last-month-data {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+  font-size: var(--extra-small-heading-size);
+}
+.last-month-revenue {
+  width: 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  font-size: var(--big-number-size);
+}
+.revenue-container1,
+.revenue-data {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--extra-small-heading-size);
+}
+.revenue-container1 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  gap: var(--gap-2xs);
+  text-align: left;
+  font-size: var(--small-heading-size);
+  color: var(--color-black);
+  font-family: var(--extra-small-heading);
+}
+@media screen and (max-width: 750px) {
+  .last-month-revenue1 {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .revenue {
+    font-size: var(--extra-small-heading-size);
+  }
+  .last-month-revenue1 {
+    font-size: var(--font-size-5xl);
+  }
+}

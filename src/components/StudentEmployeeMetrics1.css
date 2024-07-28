@@ -1,0 +1,87 @@
+.student-employee-metrics-item {
+  width: 290px;
+  height: 186px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver-200);
+  display: none;
+}
+.staff-present-today1 {
+  position: relative;
+  z-index: 1;
+}
+.frame-child34,
+.graph-elements {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-200);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.graph-elements {
+  background-color: var(--color-silver-200);
+  z-index: 2;
+}
+.graph-point {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  display: inline-block;
+  min-width: 35px;
+  z-index: 3;
+}
+.graph-elements-parent {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 64px;
+  height: 64px;
+}
+.ellipse-parent2 {
+  height: 94px;
+  flex: 1;
+  position: relative;
+}
+.student-employee-metrics-inner,
+.student-employee-metrics1 {
+  width: 184px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-26xl);
+  box-sizing: border-box;
+  font-size: var(--medium-heading-size);
+}
+.student-employee-metrics1 {
+  position: absolute;
+  top: 886px;
+  left: 1250px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver-200);
+  width: 290px;
+  flex-direction: column;
+  padding: var(--padding-mid) var(--padding-xl) var(--padding-13xl)
+    var(--padding-34xl);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--small-heading-size);
+  color: var(--color-black);
+  font-family: var(--extra-small-heading);
+}
+@media screen and (max-width: 750px) {
+  .graph-point {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .staff-present-today1 {
+    font-size: var(--extra-small-heading-size);
+  }
+  .graph-point {
+    font-size: var(--font-size-lg);
+  }
+}

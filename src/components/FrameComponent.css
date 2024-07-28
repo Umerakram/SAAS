@@ -1,0 +1,171 @@
+.frame-child30 {
+  width: 738px;
+  height: 158px;
+  position: relative;
+  box-shadow: var(--shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.month-collection-icon,
+.this-month-fee {
+  position: relative;
+  z-index: 1;
+}
+.month-collection-icon {
+  height: 6px;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+}
+.collection-icons,
+.collection-types {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.collection-icons {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.collection-types {
+  width: 508px;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.yearly-collection-icons {
+  position: relative;
+  display: inline-block;
+  min-width: 32px;
+  z-index: 1;
+}
+.fee-collection-periods {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.div,
+.last-month-fee {
+  position: relative;
+  z-index: 1;
+}
+.div {
+  display: inline-block;
+  min-width: 32px;
+}
+.last-month-fee-collection-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.collection-visuals-icon {
+  height: 6px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.collection-visuals-wrapper,
+.fee-collection-periods1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.fee-collection-periods1 {
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-6xs);
+}
+.div1,
+.this-year-fee {
+  position: relative;
+  z-index: 1;
+}
+.div1 {
+  display: inline-block;
+  min-width: 32px;
+}
+.this-year-fee-collection-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-child31 {
+  height: 6px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.fee-collection-periods-inner,
+.fee-collection-periods2,
+.rectangle-parent22 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.fee-collection-periods-inner {
+  width: 636px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+}
+.fee-collection-periods2,
+.rectangle-parent22 {
+  flex-direction: column;
+}
+.fee-collection-periods2 {
+  align-self: stretch;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-6xs);
+}
+.rectangle-parent22 {
+  position: absolute;
+  top: 297px;
+  left: 1122px;
+  box-shadow: var(--shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  width: 738px;
+  padding: var(--padding-mid) var(--padding-mid) var(--padding-sm);
+  gap: var(--gap-2xs);
+  text-align: left;
+  font-size: var(--extra-small-heading-size);
+  color: var(--color-black);
+  font-family: var(--extra-small-heading);
+}
+@media screen and (max-width: 675px) {
+  .fee-collection-periods {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .last-month-fee-collection-parent,
+  .this-year-fee-collection-parent {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,318 @@
+.navbar-child {
+  width: 295px;
+  height: 1143px;
+  position: relative;
+  box-shadow: var(--shadow);
+  background-color: var(--white);
+  display: none;
+}
+.logo1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 116px;
+  z-index: 1;
+}
+.logo-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl);
+}
+.frame-child28,
+.frame-child29 {
+  width: 10px;
+  flex: 1;
+  position: relative;
+  background-color: var(--primary);
+  z-index: 1;
+}
+.menu-items,
+.rectangle-parent21 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent21 {
+  height: 249px;
+  gap: var(--gap-130xl);
+}
+.menu-items {
+  height: 386px;
+}
+.accounts-icon,
+.employees-icon,
+.home-icon,
+.students-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.attendance-icon,
+.exam,
+.fees-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 1;
+}
+.attendance-icon,
+.exam {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.exam {
+  margin: 0;
+}
+.menu-options,
+.navigation-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.navigation-items {
+  gap: var(--gap-3xl);
+}
+.configuration-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.navigation2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-305xl);
+}
+.dashboard1,
+.students {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.dashboard1 {
+  text-decoration: none;
+  color: inherit;
+  min-width: 83px;
+}
+.students {
+  min-width: 67px;
+}
+.employees {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  min-width: 81px;
+}
+.accounts,
+.employees,
+.fees {
+  position: relative;
+  z-index: 1;
+}
+.accounts {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  min-width: 69px;
+}
+.fees {
+  min-width: 34px;
+}
+.attendance,
+.exam1,
+.fees {
+  display: inline-block;
+}
+.attendance {
+  position: relative;
+  min-width: 86px;
+  z-index: 1;
+}
+.exam1 {
+  color: var(--primary);
+  min-width: 44px;
+}
+.create-new-exam,
+.edit-or-delete,
+.exam1 {
+  position: relative;
+  z-index: 1;
+}
+.edit-or-delete {
+  display: inline-block;
+  min-width: 102px;
+}
+.action-items,
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.action-items {
+  align-self: stretch;
+  gap: var(--gap-8xl-9);
+}
+.actions {
+  width: 132px;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.minus-icon,
+.plus-icon,
+.plus-icon1,
+.plus-icon2,
+.plus-icon3,
+.plus-icon4 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.action-icons,
+.actions-parent,
+.dashboard-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.actions-parent,
+.dashboard-items {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.dashboard-items {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.add-update,
+.result {
+  position: relative;
+  z-index: 1;
+}
+.result {
+  display: inline-block;
+  min-width: 51px;
+}
+.student-wise-result {
+  color: var(--color-black);
+}
+.class-wise-result1,
+.configuration,
+.student-wise-result {
+  position: relative;
+  z-index: 1;
+}
+.configuration {
+  color: var(--color-black);
+  display: inline-block;
+  min-width: 103px;
+}
+.result-items,
+.result-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.result-menu {
+  align-self: stretch;
+  gap: var(--gap-9xl);
+}
+.result-items {
+  flex: 1;
+  padding: var(--padding-12xs) 0 0;
+}
+.minus-icon1 {
+  cursor: pointer;
+}
+.minus-icon1,
+.plus-icon5 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.result-action-icons,
+.result-items-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-107xl);
+}
+.result-items-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-14xl);
+  color: var(--primary);
+}
+.dashboard-items-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8xl);
+}
+.dashboard-items-parent,
+.menu-items-parent,
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+}
+.menu-items-parent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-xl-5);
+  font-size: var(--extra-small-heading-size);
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: var(--shadow);
+  background-color: var(--white);
+  width: 295px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-5xs) var(--padding-sm) var(--padding-321xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-54xl);
+  text-align: left;
+  font-size: var(--big-number-size);
+  color: var(--color-black);
+  font-family: var(--extra-small-heading);
+}
+@media screen and (max-width: 750px) {
+  .logo1 {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .logo1 {
+    font-size: var(--font-size-5xl);
+  }
+}

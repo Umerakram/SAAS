@@ -1,0 +1,312 @@
+.dashboard-accounts-child {
+  position: absolute;
+  top: 118px;
+  left: 353px;
+  background-color: var(--color-gainsboro-200);
+  width: 1509px;
+  height: 913px;
+  display: none;
+}
+.frame-child25 {
+  height: 70px;
+  width: 1625px;
+  position: relative;
+  background-color: var(--color-darkgray-100);
+  display: none;
+  max-width: 100%;
+}
+.full-screen-icon8 {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  z-index: 1;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+}
+.notification-icon8 {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  z-index: 1;
+}
+.options1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-mid) 0 0;
+}
+.profile-icon8 {
+  height: 55px;
+  width: 55px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangle-parent20 {
+  position: absolute;
+  top: 0;
+  left: 23px;
+  background-color: var(--color-darkgray-100);
+  width: 1625px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-5xs) var(--padding-42xl) var(--padding-6xs);
+  box-sizing: border-box;
+  gap: var(--gap-17xl);
+  max-width: 100%;
+}
+.frame-child26 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-dimgray);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.arrow-left-icon8 {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  z-index: 2;
+}
+.ellipse-parent1 {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  width: 45px;
+  height: 45px;
+}
+.fullscreen-notification2 {
+  position: absolute;
+  top: 0;
+  left: 272px;
+  width: 1648px;
+  height: 70px;
+  max-width: 100%;
+}
+.revenue-chart-child {
+  width: 354px;
+  height: 337px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver-200);
+  display: none;
+  max-width: 100%;
+}
+.frame-child27 {
+  height: 2px;
+  width: 264.5px;
+  position: relative;
+  z-index: 1;
+}
+.revenue-chart-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xl) 0 var(--padding-8xl);
+}
+.class-report-child4,
+.revenue-chart {
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver-200);
+}
+.revenue-chart {
+  position: absolute;
+  top: 118px;
+  left: 738px;
+  width: 354px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-mid) var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+}
+.class-report-child4 {
+  align-self: stretch;
+  height: 571px;
+  position: relative;
+  display: none;
+}
+.class-wise-report8 {
+  position: relative;
+  z-index: 1;
+}
+.report-title1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-4xl);
+}
+.class8 {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+  z-index: 1;
+}
+.class-data-columns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.present-today8 {
+  position: relative;
+  display: inline-block;
+  min-width: 107px;
+  z-index: 1;
+}
+.class-data-columns1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.absent-today8 {
+  position: relative;
+  display: inline-block;
+  min-width: 102px;
+  z-index: 1;
+}
+.class-data-columns2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.on-leave8 {
+  position: relative;
+  display: inline-block;
+  min-width: 70px;
+  z-index: 1;
+}
+.class-data-columns3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.fees-monthly8 {
+  position: relative;
+  display: inline-block;
+  min-width: 109px;
+  z-index: 1;
+}
+.class-data-columns4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.balance8,
+.paid-amount8 {
+  position: relative;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 1;
+}
+.balance8 {
+  min-width: 59px;
+}
+.class-data-header1,
+.class-report-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.class-data-header1 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.class-report-content {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base) 0 var(--padding-mid);
+  box-sizing: border-box;
+}
+.class-data-table1,
+.class-report7,
+.class-report8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.class-data-table1 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.class-report7,
+.class-report8 {
+  max-width: 100%;
+}
+.class-report8 {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-7xs);
+  font-size: var(--extra-small-heading-size);
+}
+.class-report7 {
+  position: absolute;
+  top: 496px;
+  left: 354px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver-200);
+  width: 866px;
+  align-items: flex-start;
+  padding: var(--padding-mid) 0 var(--padding-10xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+}
+.dashboard-accounts {
+  width: 100%;
+  height: 1143px;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--small-heading-size);
+  color: var(--color-black);
+  font-family: var(--extra-small-heading);
+}
+@media screen and (max-width: 750px) {
+  .class-data-header1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .class-wise-report8 {
+    font-size: var(--extra-small-heading-size);
+  }
+  .dashboard-accounts {
+    height: auto;
+    min-height: 1143;
+  }
+}

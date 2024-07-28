@@ -1,0 +1,480 @@
+.dashboard-child {
+  position: absolute;
+  top: 118px;
+  left: 353px;
+  background-color: var(--color-gainsboro-200);
+  width: 1509px;
+  height: 913px;
+  display: none;
+}
+.rectangle-div {
+  height: 70px;
+  width: 1625px;
+  position: relative;
+  background-color: var(--primary);
+  display: none;
+  max-width: 100%;
+}
+.full-screen-icon {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  z-index: 1;
+}
+.notification-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+}
+.notification-icon {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  z-index: 1;
+}
+.notification-elements1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-mid) 0 0;
+}
+.profile-icon {
+  height: 55px;
+  width: 55px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.back-button,
+.frame-div {
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+}
+.frame-div {
+  left: 295px;
+  background-color: var(--primary);
+  width: 1625px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-5xs) var(--padding-42xl) var(--padding-6xs);
+  gap: var(--gap-17xl);
+  max-width: 100%;
+}
+.back-button {
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--secondary);
+  border: 0 solid var(--color-black);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.arrow-left-icon1 {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  z-index: 2;
+}
+.back-navigation {
+  position: absolute;
+  top: 13px;
+  left: 272px;
+  width: 45px;
+  height: 45px;
+}
+.frame-child1 {
+  width: 354px;
+  height: 337px;
+  position: relative;
+  box-shadow: var(--shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.expense-divider-child {
+  height: 2px;
+  width: 264.5px;
+  position: relative;
+  z-index: 1;
+}
+.expense-divider {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xl) 0 var(--padding-8xl);
+}
+.frame-child2,
+.rectangle-parent1 {
+  box-shadow: var(--shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 118px;
+  left: 738px;
+  width: 354px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-mid) var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+}
+.frame-child2 {
+  align-self: stretch;
+  height: 576px;
+  position: relative;
+  display: none;
+}
+.class-wise-report {
+  position: relative;
+  z-index: 1;
+}
+.class-report-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-4xl);
+}
+.class {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+  z-index: 1;
+}
+.report-columns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.present-today {
+  position: relative;
+  display: inline-block;
+  min-width: 107px;
+  z-index: 1;
+}
+.report-columns1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.absent-today {
+  position: relative;
+  display: inline-block;
+  min-width: 102px;
+  z-index: 1;
+}
+.report-columns2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.on-leave {
+  position: relative;
+  display: inline-block;
+  min-width: 70px;
+  z-index: 1;
+}
+.report-columns3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.fees-monthly {
+  position: relative;
+  display: inline-block;
+  min-width: 109px;
+  z-index: 1;
+}
+.report-columns4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.balance,
+.paid-amount {
+  position: relative;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 1;
+}
+.balance {
+  min-width: 59px;
+}
+.class-report-header,
+.report-header-labels {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.report-header-labels {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.class-report-header {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base) 0 var(--padding-mid);
+  box-sizing: border-box;
+}
+.class-report-table,
+.report-rows {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.class-report-table {
+  align-items: flex-end;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+  font-size: var(--extra-small-heading-size);
+}
+.metrics-container-child,
+.rectangle-parent2 {
+  box-shadow: var(--shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 496px;
+  left: 354px;
+  width: 866px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 var(--padding-15xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.metrics-container-child {
+  width: 290px;
+  height: 186px;
+  position: relative;
+  display: none;
+}
+.staff-present-today {
+  position: relative;
+  z-index: 1;
+}
+.student-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--primary);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.employee-value {
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-200);
+  z-index: 2;
+}
+.employee-value,
+.student-value-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.b {
+  position: absolute;
+  top: 27px;
+  left: 29px;
+  display: inline-block;
+  min-width: 35px;
+  z-index: 3;
+}
+.frame-parent {
+  height: 94px;
+  flex: 1;
+  position: relative;
+}
+.metrics-container-inner {
+  width: 184px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-26xl);
+  box-sizing: border-box;
+  font-size: var(--medium-heading-size);
+}
+.metrics-container,
+.metrics-container-item {
+  width: 290px;
+  box-shadow: var(--shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+}
+.metrics-container {
+  position: absolute;
+  top: 886px;
+  left: 1250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-xl) var(--padding-13xl)
+    var(--padding-34xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.metrics-container-item {
+  height: 186px;
+  position: relative;
+  display: none;
+}
+.students-present-today {
+  position: relative;
+  z-index: 1;
+}
+.ellipse-div,
+.month-value {
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipse-div {
+  top: 0;
+  left: 0;
+  background-color: var(--primary);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.month-value {
+  height: 94px;
+  width: 94px;
+  margin: 0 !important;
+  bottom: -29px;
+  left: calc(50% - 47px);
+  background-color: var(--color-gainsboro-200);
+  z-index: 2;
+}
+.profit-value {
+  position: relative;
+  display: inline-block;
+  min-width: 52px;
+  z-index: 3;
+}
+.month-value-parent {
+  position: absolute;
+  top: 24px;
+  left: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipse-parent {
+  height: 94px;
+  flex: 1;
+  position: relative;
+}
+.metrics-container-inner1,
+.metrics-container1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.metrics-container-inner1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-53xl) 0 var(--padding-52xl);
+  font-size: var(--medium-heading-size);
+}
+.metrics-container1 {
+  position: absolute;
+  top: 886px;
+  left: 1570px;
+  box-shadow: var(--shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  width: 290px;
+  flex-direction: column;
+  padding: var(--padding-mid) var(--padding-7xl) var(--padding-13xl)
+    var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  text-align: center;
+}
+.dashboard {
+  width: 100%;
+  height: 1143px;
+  position: relative;
+  background-color: var(--secondary);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--small-heading-size);
+  color: var(--color-black);
+  font-family: var(--extra-small-heading);
+}
+@media screen and (max-width: 750px) {
+  .report-header-labels {
+    flex-wrap: wrap;
+  }
+  .b,
+  .profit-value {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-div {
+    flex-wrap: wrap;
+  }
+  .class-wise-report,
+  .staff-present-today {
+    font-size: var(--extra-small-heading-size);
+  }
+  .b {
+    font-size: var(--font-size-lg);
+  }
+  .students-present-today {
+    font-size: var(--extra-small-heading-size);
+  }
+  .profit-value {
+    font-size: var(--font-size-lg);
+  }
+  .dashboard {
+    height: auto;
+    min-height: 1143;
+  }
+}
